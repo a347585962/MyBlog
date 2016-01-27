@@ -6,6 +6,7 @@ public class IndexController extends Controller{
 	
 	public void index(){
 		
+		System.out.println("index");
 		this.render("/index.jsp");
 
 	}
